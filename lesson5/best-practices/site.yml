@@ -1,0 +1,11 @@
+---
+# No reference to group_var files; they are 'automatic'
+- hosts: lamp
+  tasks:
+    - name: include lamp tasks
+      include: tasks/lamp.yml
+
+- hosts: file
+  tasks:
+    - name: include file tasks
+      include: tasks/file.yml

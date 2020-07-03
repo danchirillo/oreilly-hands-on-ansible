@@ -1,0 +1,14 @@
+[all]
+ansible1
+ansible2
+ansible3
+
+[webservers]
+ansible1
+ansible2
+ansible3
+
+[dbservers]
+ansible1
+ansible2
+ansible3

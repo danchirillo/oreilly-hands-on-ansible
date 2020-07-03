@@ -1,3 +1,7 @@
 ansible1
 ansible2
 ansible3
+
+[lamp]
+ansible2
+

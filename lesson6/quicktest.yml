@@ -1,0 +1,8 @@
+---
+- name: test command result
+  hosts: all
+  tasks:
+    - name: check a fact
+      debug:
+        msg: echo today is the 2nd
+      when:  '"23" in ansible_date_time.day'
